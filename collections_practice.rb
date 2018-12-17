@@ -20,7 +20,7 @@ end
 
 def kesha_maker(array)
   #swap_array = []
-   array.each_with_index do |letter, index| 
+   array.each_with_index.collect do |letter, index| 
     letter == "$"
   # swap_array << letter
   end 
