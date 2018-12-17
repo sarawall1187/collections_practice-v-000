@@ -40,7 +40,7 @@ def add_s(array)
      if index[2]
        "#{word}"
        elsif
-         "#{word} << "s" 
+         "#{word}"" << "s" 
    end
  end
  end
