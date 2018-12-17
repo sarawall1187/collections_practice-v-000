@@ -24,5 +24,5 @@ def kesha_maker(array)
    array << letter.length[3] == "$"
    
   end 
- 
+ array
 end
