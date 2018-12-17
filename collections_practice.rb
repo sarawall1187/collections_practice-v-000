@@ -37,7 +37,7 @@ end
 
 def add_s(array)
    array.each_with_index.collect do |word, index|
-     if word[index] == word[2]
+     if array[index] == word[2]
         "#{word}"
        elsif 
          "#{word}" << "s" 
