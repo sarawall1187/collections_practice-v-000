@@ -21,7 +21,7 @@ end
 def kesha_maker(array)
   
    array.each_with_index do |letter, index| 
-   array << letter.length[3] == "$"
+   array << letter.length == "#{$[2]}"
    
   end 
  array
