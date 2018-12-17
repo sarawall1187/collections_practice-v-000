@@ -37,7 +37,7 @@ end
 
 def add_s(array)
    array.each_with_index.collect do |word, index|
-     word[index] + "s"
+     word + "s"
    end
  end
 
