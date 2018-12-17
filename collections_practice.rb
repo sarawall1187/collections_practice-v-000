@@ -37,11 +37,11 @@ end
 
 def add_s(array)
    array.each_with_index.collect do |word, index|
-     if index[2]
-       "#{word}"
-       elsif
+     if index == index[2]
+        "#{word}"
+       elsif 
          "#{word}" << "s" 
    end
- end
+  end
  end
 
