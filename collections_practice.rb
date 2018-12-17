@@ -34,5 +34,8 @@ end
 def sum_array(array)
   array.inject {|num, sum| num + sum}
 end
-
+ def add_s(array)
+   array.each_with_index.collect do |word, index|
+     word[-1] << "s"
+ end
 
