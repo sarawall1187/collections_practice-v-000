@@ -25,5 +25,5 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.collect {|word, index| word = "a"}
+  array.collect.with_index {|word, index| word[0] = "a"}
 end
