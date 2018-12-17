@@ -1,3 +1,5 @@
+require "pry"
+
 def sort_array_asc(int)
   int.sort
 end
@@ -25,6 +27,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
+  binding.pry
   a_array = []
   array.each do |word| 
    word.start_with?("a")
