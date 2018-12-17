@@ -19,10 +19,10 @@ def reverse_array(int)
 end
 
 def kesha_maker(array)
-  swap_array = []
-   array.each_with_index.collect do |letter, index| 
+  
+   array.each_with_index do |letter, index| 
    letter[3] == "$"
-   swap_array << letter
+   array << letter
   end 
- swap_array
+ 
 end
