@@ -27,7 +27,7 @@ end
 def find_a(array)
   array.collect do |word| 
    if word.start_with?("a")
-     puts "#{array}"
+     "#{array}"
   end
 end
 
