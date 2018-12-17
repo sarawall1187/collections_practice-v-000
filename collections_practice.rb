@@ -20,7 +20,7 @@ end
 
 def kesha_maker(array)
    array.each_with_index do |letter, index| 
-   letter[index + 2] == "$"
+   letter[index + 2] = "$"
    
   end 
 end
